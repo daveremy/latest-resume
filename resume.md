@@ -91,8 +91,6 @@ Primarily a DB2 relational database specialist, also advisory consulting around 
 - **Streamlined declarative parsing (US 8005848 B2)** Jun 2007
 ------
 #### Contact Information
-> email@daveremy.com
-> phone: +1 206 372 4308
-> github: https://github.com/daveremy
-> twitter: @daveremy
-> linkedIn: https://www.linkedin.com/in/daveremy/
+> email@daveremy.com, +1 206 372 4308
+
+> github: https://github.com/daveremy, twitter: @daveremy, linkedIn: https://www.linkedin.com/in/daveremy/
