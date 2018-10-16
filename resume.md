@@ -1,9 +1,6 @@
 # Dave Remy
-## Technology leader, architect, developer
+### Technology leader, architect, developer
 
-> email@daveremy.com
-> https://github.com/daveremy
-> twitter: @daveremy
 
 Technology leader, architect, inventor, entrepreneur, developer with a variety of experience from large technology companies (Microsoft, IBM, BEA), early stage entrepreneurial companies (Sharebuilder, GeoTrust, UBoost), to mid size financial software companies such as Linedata.  Strong cross cutting knowledge and hands on experience across technology stacks including Java, Microsoft, Ruby, Python, Type/Javascript and much more.
 
@@ -13,29 +10,29 @@ Technology leader, architect, inventor, entrepreneur, developer with a variety o
 
 **Sabbatical** *Pulumi, Linedata* __Since Jun 2018__
 
-**Pulumi** (cloud programming startup based in Seattle).  Innovative cloud company formed by ex-Microsoft colleagues to use programming languages to deploy software defined infrastructure to multiple cloud providers (AWS, Azure, GCP, Kubernetes, etc.).  Hands on work doing early customer implementations, bug fixing, example testing, etc.
+* **Pulumi** (cloud programming startup based in Seattle).  Innovative cloud company formed by ex-Microsoft colleagues to use programming languages to deploy software defined infrastructure to multiple cloud providers (AWS, Azure, GCP, Kubernetes, etc.).  Hands on work doing early customer implementations, bug fixing, example testing, etc.
 
-**Linedata**.  Technnology strategy and architecture for Linedata's Asset Management division.  
+* **Linedata**.  Technnology strategy and architecture for Linedata's Asset Management division.  
 
 **Linedata** *Chief Technology Officer* __Sep 2010 to Jun 2018__
 A series of increasing scope CTO positions starting as CTO at Capitalstream in Seattle.  Working with the head of the division responsible for technology transformation, strategy, architecture, selection, methodologies.  Direct line responsibility for development, quality assurance, professional services, and hosting teams.  Formed world class development team with distributed systems expertise especially around asynchrounous, high volume, low latency architecture patterns (CQRS/ES).
 
-**Chief Technology Officer**, *Linedata Asset Management* __Sep 2017 to Jun 2018__
+* **Chief Technology Officer**, *Linedata Asset Management* __Sep 2017 to Jun 2018__
 Responsible for Linedata's Asset Management division technology across compliance, trading, portfolio management, middle office and back office accounting systems.  Leader of the largest technology transformation in Linedata's history to a cross product, cloud targeted distributed systems architecture.  This project represented a transformation of nearly every aspect of Linedata's product and technology offerings and has substantially increased Linedata's competitiveness in the financial services space as well as a thought leader.
 
-**Chief Technology Officer** *Linedata Front Office Asset Managementi* __Sep 2015 to Sep 2017__
+* **Chief Technology Officer** *Linedata Front Office Asset Managementi* __Sep 2015 to Sep 2017__
 Responsible for Linedata's compliance, trading, and portfolio management product technology based in Boston, MA. Substantial turnaround completely changing methodolog and technology strategy.
 
-**Chief Technology Officer** *Linedata Lending and Leasing* __Sep 2013 to Sep 2015__
+* **Chief Technology Officer** *Linedata Lending and Leasing* __Sep 2013 to Sep 2015__
 Responsible for technology across Linedata's Lending and Leasing products including commercial loan and leasing origination as well as back office systems. One year of this role was based in Paris, France.
 
-**Chief Technology Officer** *Capitalstream* __Sep 2010 to Sep 2013__
+* **Chief Technology Officer** *Capitalstream* __Sep 2010 to Sep 2013__
 Responsible for technology at Capistalstream's front office loan origination products based in Seattle.  Complete revamp of methodology and strategy refreshing Capitalstream's product line.  
     
 **Microsoft** **Development Manager, Developer** __Nov 2008 to Sep 2010__
-**Development Manager** *Dynamic Languages Team* Worked with Microsoft's IronPython and IronRuby teams on delivering several of Microsoft's earliest open source projects.  
+* **Development Manager** *Dynamic Languages Team* Worked with Microsoft's IronPython and IronRuby teams on delivering several of Microsoft's earliest open source projects.  
 
-**Developer**.  Developer on Microsoft __Rosalyn__ project, re-writing C# in C# and open sourcing C#.  Extremely valuable project for Microsoft.
+* **Developer**.  Developer on Microsoft __Rosalyn__ project, re-writing C# in C# and open sourcing C#.  Extremely valuable project for Microsoft.
 
 **UBoost** *Chief Technology Officer* __Nov 2007 to Nov 2008__
 Responsible for complete rewrite and revamp of the UBoost's rewards and recognition platform (essentially white label gamification).  Using Ruby on Rails technology delivered initial highly functional platfform in less than 6 months. Involved hands on development and leading team through intense, high pressure period.
@@ -62,9 +59,9 @@ Responsible, in conjunction with PEMCO executive management, for PEMCO's technol
 Primarily a DB2 relational database specialist, also advisory consulting around data architecture.
 
 **Consultant, Developer** __1985 to 1994__
-**Relational Services** *Founder/partner* of successful database consulting firm fully consumed by IBM subcontracting engagements.
-**Rainer Bank** *Developer* Co developer of unique object oriented CRM system amongst other development projects.
-**Boeing Computer Services** *Developer* Initial programming position on Boeing Military applications.
+* **Relational Services** *Founder/partner* of successful database consulting firm fully consumed by IBM subcontracting engagements.
+* **Rainer Bank** *Developer* Co developer of unique object oriented CRM system amongst other development projects.
+* **Boeing Computer Services** *Developer* Initial programming position on Boeing Military applications.
 
 ------
 ### Education
@@ -73,18 +70,29 @@ Primarily a DB2 relational database specialist, also advisory consulting around 
 * **Depaul University** *Masters in Computer Science* __Ongoing__
 ------
 ### Certifications
-**Certified Information Systems Security Professional** __2001__ (currently inactive)
+
+**Certified Information Systems Security Professional** 2001 (currently inactive)
+
 ------
 ### Publications
-**Securing Web Services with Web Services with WS-Security: Demystifying WS-Security, WS-Policy, SAML, XML Signature and XML Encryption** __May 2004__ ISBN: 0672326515
+
+**Securing Web Services with Web Services with WS-Security: Demystifying WS-Security, WS-Policy, SAML, XML Signature and XML Encryption** May 2004 ISBN: 0672326515
+
 ------
 ### Patents
-**Methods and apparatus for aggregated securities brokerage service (WO 2001037184 A8)** __Nov 2000__
-**Web site identity assurance (US 7114177 B2)** __Jan 2002__
-**System and method for providing secure transactions (WO 2002073364 A3)** __May 2002__
-**Methods and systems for automated authentication, processing and issuance of digital certificates (WO 2003032572 A1)** __Oct 2002__
-**Generational global name table (US 7454436 B2)** __Aug, 2005__
-**Complexity metrics for data schemas (US 7861229 B2)** __Mar 2006__
-**Lightweight application program interface (api) for extensible markup language (xml) (WO 2007018827 A3)** __June 2006__
-**Streamlined declarative parsing (US 8005848 B2)** __Jun 2007__
+
+- **Methods and apparatus for aggregated securities brokerage service (WO 2001037184 A8)** Nov 2000
+- **Web site identity assurance (US 7114177 B2)** Jan 2002
+- **System and method for providing secure transactions (WO 2002073364 A3)** May 2002
+- **Methods and systems for automated authentication, processing and issuance of digital certificates (WO 2003032572 A1)** Oct 2002
+- **Generational global name table (US 7454436 B2)** Aug, 2005
+- **Complexity metrics for data schemas (US 7861229 B2)** Mar 2006
+- **Lightweight application program interface (api) for extensible markup language (xml) (WO 2007018827 A3)** June 2006
+- **Streamlined declarative parsing (US 8005848 B2)** Jun 2007
 ------
+#### Contact Information
+> email@daveremy.com
+> phone: +1 206 372 4308
+> github: https://github.com/daveremy
+> twitter: @daveremy
+> linkedIn: https://www.linkedin.com/in/daveremy/
