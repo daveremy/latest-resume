@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>resume.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family:  "Meiryo", "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+</head>
+<body>
+<h1 id="dave-remy">Dave Remy</h1>
+<h3 id="technology-leader-architect-developer">Technology leader, architect, developer</h3>
+<p>Technology leader, architect, inventor, entrepreneur, developer with a variety of experience from large technology companies (Microsoft, IBM, BEA), early stage entrepreneurial companies (Sharebuilder, GeoTrust, UBoost), to mid size financial software companies such as Linedata.  Strong cross cutting knowledge and hands on experience across technology stacks including Java, Microsoft, Ruby, Python, Type/Javascript and much more.</p>
+<hr>
+<h3 id="experience">Experience</h3>
+<p><strong>Sabbatical</strong> <em>Pulumi, Linedata</em> <strong>Since Jun 2018</strong></p>
+<ul>
+<li>
+<p><strong>Pulumi</strong> (cloud programming startup based in Seattle).  Innovative cloud company formed by ex-Microsoft colleagues to use programming languages to deploy software defined infrastructure to multiple cloud providers (AWS, Azure, GCP, Kubernetes, etc.).  Hands on work doing early customer implementations, bug fixing, example testing, etc.</p>
+</li>
+<li>
+<p><strong>Linedata</strong>.  Technnology strategy and architecture for Linedata's Asset Management division.</p>
+</li>
+</ul>
+<p><strong>Linedata</strong> <em>Chief Technology Officer</em> <strong>Sep 2010 to Jun 2018</strong>
+A series of increasing scope CTO positions starting as CTO at Capitalstream in Seattle.  Working with the head of the division responsible for technology transformation, strategy, architecture, selection, methodologies.  Direct line responsibility for development, quality assurance, professional services, and hosting teams.  Formed world class development team with distributed systems expertise especially around asynchrounous, high volume, low latency architecture patterns (CQRS/ES).</p>
+<ul>
+<li>
+<p><strong>Chief Technology Officer</strong>, <em>Linedata Asset Management</em> <strong>Sep 2017 to Jun 2018</strong>
+Responsible for Linedata's Asset Management division technology across compliance, trading, portfolio management, middle office and back office accounting systems.  Leader of the largest technology transformation in Linedata's history to a cross product, cloud targeted distributed systems architecture.  This project represented a transformation of nearly every aspect of Linedata's product and technology offerings and has substantially increased Linedata's competitiveness in the financial services space as well as a thought leader.</p>
+</li>
+<li>
+<p><strong>Chief Technology Officer</strong> <em>Linedata Front Office Asset Managementi</em> <strong>Sep 2015 to Sep 2017</strong>
+Responsible for Linedata's compliance, trading, and portfolio management product technology based in Boston, MA. Substantial turnaround completely changing methodolog and technology strategy.</p>
+</li>
+<li>
+<p><strong>Chief Technology Officer</strong> <em>Linedata Lending and Leasing</em> <strong>Sep 2013 to Sep 2015</strong>
+Responsible for technology across Linedata's Lending and Leasing products including commercial loan and leasing origination as well as back office systems. One year of this role was based in Paris, France.</p>
+</li>
+<li>
+<p><strong>Chief Technology Officer</strong> <em>Capitalstream</em> <strong>Sep 2010 to Sep 2013</strong>
+Responsible for technology at Capistalstream's front office loan origination products based in Seattle.  Complete revamp of methodology and strategy refreshing Capitalstream's product line.</p>
+</li>
+</ul>
+<p><strong>Microsoft</strong> <strong>Development Manager, Developer</strong> <strong>Nov 2008 to Sep 2010</strong></p>
+<ul>
+<li>
+<p><strong>Development Manager</strong> <em>Dynamic Languages Team</em> Worked with Microsoft's IronPython and IronRuby teams on delivering several of Microsoft's earliest open source projects.</p>
+</li>
+<li>
+<p><strong>Developer</strong>.  Developer on Microsoft <strong>Rosalyn</strong> project, re-writing C# in C# and open sourcing C#.  Extremely valuable project for Microsoft.</p>
+</li>
+</ul>
+<p><strong>UBoost</strong> <em>Chief Technology Officer</em> <strong>Nov 2007 to Nov 2008</strong>
+Responsible for complete rewrite and revamp of the UBoost's rewards and recognition platform (essentially white label gamification).  Using Ruby on Rails technology delivered initial highly functional platfform in less than 6 months. Involved hands on development and leading team through intense, high pressure period.</p>
+<p><strong>Microsoft</strong> <em>Group Program Manager XML Team</em> <strong>2004 to 2007</strong>
+This was in XML gogo days.  Responsible for all aspects of Microsoft's XML offering from XML in the browser to the XML APIs that shipped with .NET.  Involved in multiple strategic projects including one of Microsoft's most innovative initiatives LINQ (Language Integrated Query).  Co-inventor of Linq to XML with Anders Hejlsberg (and others).</p>
+<p><strong>BEA Systems</strong> <em>Director of Program Management/Development Lead</em> <strong>2001 to 2004</strong>
+Responsbile for key aspects of BEA's Weblogic Workshop product which was meant to be a competitive Java IDE for Eclipse but initially focused on web services development.  Became the lead for BEA's earliest open source project <strong>Apache XMLBeans</strong> which was a highly performant, lossless XML API (DOM replacement).  Included hands on development, Java J2EE stack.</p>
+<p><strong>GeoTrust</strong> <em>Chief Technology Officer/Chief Architect/Co-Founder</em> <strong>1999 to 2002</strong>
+GeoTrust grew to the 2nd largest certificate authority before it's purchase by Verisign.  Responsible for all aspects of development and hosting.  Included hands on development, Java (J2EE) stack including Struts web framework.</p>
+<p><strong>Sharebuilder</strong> <strong>Chief Technology Officer/Chief Architect</strong> <strong>2000 to 2010</strong>
+Employee 4 at Sharebuilder the buy and hold oriented online broker.  Co-inventor of the unique Sharebuilder dollar based investing process.  ASP.NET stack.</p>
+<p><strong>Corbis</strong> <em>Director of Technology</em> <strong>1997 to 1999</strong>
+Corbis was Bill Gate's image company, at the time the largest digital image archive in the world.  Reported to Bill Gates for technology direction and guidance.  Responsible for initial development of CorbisView, Corbis' initial image search technology.</p>
+<p><strong>PEMCO Corporation</strong> <em>Director of Architecture/Co-CIO</em> <strong>1995 to 1998</strong>
+Responsible, in conjunction with PEMCO executive management, for PEMCO's technology direction and architecture.  Participated in CIO team across PEMCO's seven financial entities at the time.</p>
+<p><strong>International Business Machines</strong> <em>Advisory Systems Engineer</em> <strong>1994 to 1995</strong>
+Primarily a DB2 relational database specialist, also advisory consulting around data architecture.</p>
+<p><strong>Consultant, Developer</strong> <strong>1985 to 1994</strong></p>
+<ul>
+<li><strong>Relational Services</strong> <em>Founder/partner</em> of successful database consulting firm fully consumed by IBM subcontracting engagements.</li>
+<li><strong>Rainer Bank</strong> <em>Developer</em> Co developer of unique object oriented CRM system amongst other development projects.</li>
+<li><strong>Boeing Computer Services</strong> <em>Developer</em> Initial programming position on Boeing Military applications.</li>
+</ul>
+<hr>
+<h3 id="education">Education</h3>
+<ul>
+<li>
+<p><strong>Seattle University</strong> <em>Bachelor of Science, Business</em> <strong>1990</strong></p>
+</li>
+<li>
+<p><strong>Depaul University</strong> <em>Masters in Computer Science</em> <strong>Ongoing</strong></p>
+</li>
+</ul>
+<hr>
+<h3 id="certifications">Certifications</h3>
+<p><strong>Certified Information Systems Security Professional</strong> 2001 (currently inactive)</p>
+<hr>
+<h3 id="publications">Publications</h3>
+<p><strong>Securing Web Services with Web Services with WS-Security: Demystifying WS-Security, WS-Policy, SAML, XML Signature and XML Encryption</strong> May 2004 ISBN: 0672326515</p>
+<hr>
+<h3 id="patents">Patents</h3>
+<ul>
+<li><strong>Methods and apparatus for aggregated securities brokerage service (WO 2001037184 A8)</strong> Nov 2000</li>
+<li><strong>Web site identity assurance (US 7114177 B2)</strong> Jan 2002</li>
+<li><strong>System and method for providing secure transactions (WO 2002073364 A3)</strong> May 2002</li>
+<li><strong>Methods and systems for automated authentication, processing and issuance of digital certificates (WO 2003032572 A1)</strong> Oct 2002</li>
+<li><strong>Generational global name table (US 7454436 B2)</strong> Aug, 2005</li>
+<li><strong>Complexity metrics for data schemas (US 7861229 B2)</strong> Mar 2006</li>
+<li><strong>Lightweight application program interface (api) for extensible markup language (xml) (WO 2007018827 A3)</strong> June 2006</li>
+<li><strong>Streamlined declarative parsing (US 8005848 B2)</strong> Jun 2007</li>
+</ul>
+<hr>
+<h4 id="contact-information">Contact Information</h4>
+<blockquote>
+<p>email@daveremy.com, +1 206 372 4308</p>
+</blockquote>
+<blockquote>
+<p>github: https://github.com/daveremy, twitter: @daveremy, linkedIn: https://www.linkedin.com/in/daveremy/</p>
+</blockquote>
+
+</body>
+</html>
